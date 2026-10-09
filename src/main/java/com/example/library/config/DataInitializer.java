@@ -21,7 +21,6 @@ import java.util.List;
 @Slf4j
 public class DataInitializer implements CommandLineRunner {
 
-```
 private final UserRepository users;
 private final MemberRepository members;
 private final BookRepository books;
@@ -102,6 +101,6 @@ private Book book(String title, String author, String isbn,
     book.setAvailableCopies(copies);
     return book;
 }
-```
+
 
 }
